@@ -82,7 +82,10 @@ pre {
 .btn:hover {
   transform: scale(0.98);
 }
-
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 /* Backgrounds & colored buttons */
 .bg-primary,
 .btn-primary {
